@@ -1,0 +1,31 @@
+.sb {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    background-color: orange;
+    overflow: hidden;
+}
+
+.sb a {
+    text-decoration: none;
+    text-align: left;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 115%;
+    color: black;
+}
+
+.sb a:hover {
+    background-color: #3498db;
+    transition-duration: 0.4s;
+    color: black;
+}
+
+.sb a:visited {
+    color: black;
+}
+
+.sb a:active {
+    color: black;
+}

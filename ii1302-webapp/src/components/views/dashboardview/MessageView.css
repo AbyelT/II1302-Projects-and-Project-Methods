@@ -1,0 +1,5 @@
+.boxes {
+    display: grid;
+    grid-template-columns: 2.8fr 1.2fr;
+    padding-top: 5%;
+}

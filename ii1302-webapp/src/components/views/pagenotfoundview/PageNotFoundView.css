@@ -1,0 +1,29 @@
+.pagenotfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+Source for loader: https://www.w3schools.com/howto/howto_css_loader.asp
+ */
+ .spinner {
+    z-index: 1;
+    border: 16px solid orange;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-top: 20%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.outer-loader {
+    display: flex;
+    justify-content: center;
+}

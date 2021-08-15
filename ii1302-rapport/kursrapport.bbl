@@ -1,0 +1,51 @@
+\begin{thebibliography}{}
+
+\bibitem[Alp, 2013]{AlphaStateCard}
+ (2013).
+\newblock Alpha state cards: Reference guide.
+
+\bibitem[Int, 2013]{IntroAgileProjMan}
+ (2013).
+\newblock Introduction to agile project management.
+
+\bibitem[Ind, 2016]{IndustrialScaleAgile}
+ (2016).
+\newblock Industrial scale agile.
+
+\bibitem[Andersson and Ekholm, 2002]{IT-BoF:3}
+Andersson, N. and Ekholm, A. (2002).
+\newblock Vetenskaplighet - utvärdering av tre implementeringsprojekt inom
+  {IT} bygg \& fastighet 2002.
+
+\bibitem[Azizyan, 2000]{SurveyofAgileTool}
+Azizyan, Magarian, K.-M. (2000).
+\newblock Survey of agile tool usage and needs.
+
+\bibitem[Eklund, 2011]{Eklund:2}
+Eklund, S. (2011).
+\newblock {\em Arbeta i projekt : individen, gruppen, ledaren}.
+\newblock Studentlitteratur, 4. uppl.. edition.
+
+\bibitem[Jacobson, 2018]{Jacobson:4}
+Jacobson, I. (2018).
+\newblock Essential unified process guideline.
+
+\bibitem[Katter, 2015]{Katter}
+Katter, A. (2015).
+\newblock Förslag till en ekonomiskt hållbar projektmetod.
+
+\bibitem[Kniberg, 2015]{kniberg_scrum_2015}
+Kniberg, H. (2015).
+\newblock {\em Scrum and {XP} From the Trenches, How We Do Scrum}.
+\newblock C4Media, 2nd edition - director's cut edition.
+
+\bibitem[Kniberg, 2009]{KanbanandScrum}
+Kniberg, H.~Skarin, M. (2009).
+\newblock {\em Kanban and Scrum - Making the Most of Both}.
+
+\bibitem[OMG, 2014]{object_management_group_kernel_2014}
+OMG (2014).
+\newblock Kernel and {Language} for {Software} {Engineering} {Methods}
+  ({Essence}).
+
+\end{thebibliography}

@@ -1,0 +1,39 @@
+.headermenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-variant: normal;
+    font-family: sans-serif;
+    font-size:13px;
+    margin-top: 4px;
+}
+
+.menu div {
+    margin: 4px;
+}
+
+.sidebarToggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    height: 32px;
+    font-family: "Arial Black", sans-serif;
+    width: 200px;
+    margin-bottom: 0;    
+}
+
+.sidebarToggle:hover {
+    background-color: #3498db;
+    transition: 0.4s;
+    cursor: pointer;
+}

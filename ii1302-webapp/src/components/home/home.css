@@ -1,0 +1,30 @@
+#homecontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginbox {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#loginbox div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#loginbox input {
+    margin-left: 5px;
+}
+
+#loginbox button {
+    width: 100%;
+}
+
+#loginLink {
+    width: 100%;
+}

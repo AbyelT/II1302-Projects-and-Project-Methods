@@ -1,0 +1,119 @@
+.settings-outer {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+}
+
+.settings-inner {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr 1fr 0.1fr;
+    grid-template-rows: 0.1fr 1fr;
+}
+
+.settings-inner h2 {
+    grid-column: 2;
+    text-align: left;
+}
+
+.msg-settings {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.msg-settings div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.msg-settings select {
+    width: 50%;
+}
+
+.account-settings {
+    grid-column: 4;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.account-settings div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+.account-settings input {
+    width: 40%;
+}
+
+#remove {
+    background-color: lightcoral;
+    border: 2px solid red;
+}
+
+
+/*for the popup window*/
+
+/* Hide the Popup form */
+.form-popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top:10%;
+    transform: translate(-45%,5%);
+    border: 2px solid #666;
+    z-index: 9;
+}
+
+/* Styles for the form container */
+.form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Full-width for input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px 0 22px ;
+    border: none;
+    background: #eee;
+}
+    
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+    
+/* Style submit/login button */
+.form-container .btn {
+    background-color: #8ebf42;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+/* Style cancel button */
+.form-container .cancel {
+    background-color: #cc0000;
+}
+    
+/* Hover effects for buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}

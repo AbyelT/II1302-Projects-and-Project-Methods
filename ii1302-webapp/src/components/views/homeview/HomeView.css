@@ -1,0 +1,5 @@
+.homeview {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.5fr 8.5fr 1fr;
+}

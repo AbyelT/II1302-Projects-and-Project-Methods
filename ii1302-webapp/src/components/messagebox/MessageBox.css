@@ -1,0 +1,73 @@
+.messagebox-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: available;
+}
+
+.actual-box {
+    width: 70%;
+    text-align: left;
+}
+
+.message-title {
+    font-variant: normal;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.receiver-box {
+    width: available;
+    margin-bottom: 5px;
+}
+
+.output-box {
+    width: available;
+    height: 280px;
+    border-left: 2px inset black;
+    border-right: 2px inset black;
+    border-top: 2px inset black;
+    border-bottom: 2px inset black;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    overflow: auto;
+
+}
+
+.message-box {
+    width: 99%
+}
+
+.inputbox {
+    width: 100%;
+    height: 100%;
+    border-left: 2px inset black;
+    border-right: 2px inset black;
+    border-top: 2px inset black;
+    font-size: 14px;
+}
+
+.msgBtn {
+    margin-top:15px;
+    padding: 4px;
+    
+}
+
+.sentMsgDiv {
+    border-radius: 7px;
+    border-style: solid;
+    margin:5px;
+}
+
+.Receiver {
+    width: 70px;
+}
+
+.sentMsgTxt {
+    margin-left:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
